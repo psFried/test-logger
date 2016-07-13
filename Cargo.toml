@@ -1,0 +1,11 @@
+[package]
+name = "test-logger"
+version = "0.1.0"
+authors = ["Phil Fried <philipsfried@gmail.com>"]
+
+[dependencies]
+env_logger = "~0.3"
+
+[dev-dependencies]
+log = "*"
+
