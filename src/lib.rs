@@ -13,7 +13,7 @@ macro_rules! test {
         #[test]
         $( #[$attr] )*
         fn $name() {
-            test_logger::init_env_logger();
+            test_logger::ensure_env_logger_initialized();
             $test
         }
     };
@@ -22,7 +22,7 @@ macro_rules! test {
     };
 }
 
-pub fn init_env_logger() {
+pub fn ensure_env_logger_initialized() {
     LOGGER_INIT.call_once(|| env_logger::init().unwrap());
 }
 
