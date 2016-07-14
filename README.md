@@ -1,7 +1,7 @@
 Test Logger
 ===========
 
-Simple helper for Rust to initialize env_logger before unit and integration tests.
+Simple helper to initialize env_logger before unit and integration tests. Works on Stable Rust.
 
 Running `cargo test` does not initialize a logging backend, so those of us who use the `log` crate do not get to see log output when a unit or integration test fails. This crate just provides a simple macro that provides a way to initialize an `env_logger` during unit and integration tests while still making tests somewhat ergonomic to write.
 

@@ -3,6 +3,7 @@ name = "test-logger"
 version = "0.1.0"
 authors = ["Phil Fried <philipsfried@gmail.com>"]
 
+description = "Simple helper to initialize env_logger before unit and integration tests. Works on stable rust."
 documentation = "https://github.com/psFried/test-logger"
 homepage = "https://github.com/psFried/test-logger"
 repository = "https://github.com/psFried/test-logger"
