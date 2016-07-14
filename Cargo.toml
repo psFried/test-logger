@@ -8,12 +8,12 @@ documentation = "https://github.com/psFried/test-logger"
 homepage = "https://github.com/psFried/test-logger"
 repository = "https://github.com/psFried/test-logger"
 readme = "README.md"
-keywords = ["logging", "log", "env_logger", "tests", "unit test", "integration test"]
+keywords = ["logging", "log", "env_logger", "tests", "testing"]
 license = "MIT/Apache-2.0"
 
 [dependencies]
 env_logger = "~0.3"
 
 [dev-dependencies]
-log = "*"
+log = "~0.3"
 
